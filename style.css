@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+
+h1{
+
+text-align: center;
+color: aliceblue;
+margin: 0px;
+padding: 30px;
+margin-bottom: 10px;
+
+}
+
+header {
+
+    background: rgb(20,0,36);
+    background: linear-gradient(90deg, rgba(20,0,36,1) 0%, rgba(9,66,121,1) 35%, rgba(214,0,255,1) 100%);
+
+}
+body{
+font-size: 30px;
+margin: 0px;
+text-align: center;
+font-family: 'Sedgwick Ave Display', cursive;
+}
+
+#botao{
+
+width: 8rem ;
+height: 3 rem;
+background: rgb(20,0,36);
+background: linear-gradient(90deg, rgba(20,0,36,1) 0%, rgba(9,66,121,1) 35%, rgba(214,0,255,1) 100%);
+border-radius: 5px ;
+justify-content: center;
+align-items: center;
+color: #fff ;
+text-transform: uppercase ;
+text-decoration: none;
+font-family: 'Sedgwick Ave Display';
+font-size: 13.3px ;
+box-shadow: 0px 5px 20p 0px #1de9b654 ;
+transition: 300ms ease-in-out;
+}
+
+#botao:hover {
+color: #fff;
+background-color: #05ce9c ;
+box-shadow: 0px 5px 20px 5px #1de9b654;
+transition: 300ms ease-in-out;
+}
